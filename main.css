@@ -35,7 +35,7 @@
 
 body, html {
   background-color: var(--backdrop);
-  color: white;
+  color: var(--greytext);
 }
 
 #container {
@@ -115,4 +115,9 @@ body, html {
   background-color: var(--backdrop);
   border: var(--outline);
   color: var(--buttonout);
+}
+
+#icon {
+  font-size: 70px;
+  color: var(--greytext);
 }
