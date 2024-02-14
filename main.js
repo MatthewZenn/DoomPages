@@ -5,7 +5,8 @@ const icons = ['<span id="icon" class="material-symbols-outlined">smoke_free</sp
 '<span id="icon" class="material-symbols-outlined">bomb</span>',
 '<span id="icon" class="material-symbols-outlined">microbiology</span>',
 '<span id="icon" class="material-symbols-outlined">skull</span>',
-'<span id="icon" class="material-symbols-outlined">raven</span>'
+'<span id="icon" class="material-symbols-outlined">raven</span>',
+'<span id="icon" class="material-symbols-outlined">fingerprint</span>'
 ];
 const titles = ['The page ahead is in a non-smoking area', 
 'Are you still here?',
@@ -13,7 +14,8 @@ const titles = ['The page ahead is in a non-smoking area',
 'Active bomb threat',
 'Virus detected',
 'You have been cursed',
-'This site is under goverment surveillance'
+'This site is under goverment surveillance',
+'The site ahead is locked'
 ];
 
 const bodys = ['For the safety of the others, we ask that visitors to this site not engage in any smoking or drug related activities.',
@@ -22,7 +24,8 @@ const bodys = ['For the safety of the others, we ask that visitors to this site 
 'The site you are trying to visit is temporarily unavailable due to a potential bomb threat. Please be patient.',
 "The site you are trying to visit is currently under quarentine. Please allow 1-2 weeks of isolation before visitng again. We apologies for the inconvenience and thank you for your understanding.",
 "You have been visited by the ghost of Rick Ashley. You will die tonight unless you comment the link to Rick Ashley's 'Never Gonna Give You Up' on ten different YouTube videos.",
-"for your safety, the site ahead is under active surveillance by the Federal Government. Do not attempt to circumvent this with a vpn or other methods."
+"For your safety, the site ahead is under active surveillance by the Federal Government. Do not attempt to circumvent this with a vpn or other methods.",
+"You have been locked out of this site for security purposes. Please instert your thumb into your PC's USB port to unclock access."
 ];
 
 Array.prototype.random = function () {
