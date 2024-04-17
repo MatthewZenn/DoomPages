@@ -6,7 +6,8 @@ const icons = ['<span id="icon" class="material-symbols-outlined">smoke_free</sp
 '<span id="icon" class="material-symbols-outlined">microbiology</span>',
 '<span id="icon" class="material-symbols-outlined">skull</span>',
 '<span id="icon" class="material-symbols-outlined">raven</span>',
-'<span id="icon" class="material-symbols-outlined">fingerprint</span>'
+'<span id="icon" class="material-symbols-outlined">fingerprint</span>',
+'<span id="icon" class="material-symbols-outlined">local_fire_department</span>'
 ];
 const titles = ['The page ahead is in a non-smoking area', 
 'Are you still here?',
@@ -15,17 +16,19 @@ const titles = ['The page ahead is in a non-smoking area',
 'Virus detected',
 'You have been cursed',
 'This site is under goverment surveillance',
-'The site ahead is locked'
+'The site ahead is locked',
+'Your PC is overheating'
 ];
 
 const bodys = ['For the safety of the others, we ask that visitors to this site not engage in any smoking or drug related activities.',
 "It looks you've been using the internet for a while. It's important to take breaks every few hours. Try going outside or feeding your dog.",
 "To continue to this site, you will need to verify that you are human. A verification alert has been sent to your mobile device. Tap 'Confirm' and continue with the following instructions. Please stand in front of your camera, spell out your full name while pretending to jump rope, spin in a circle three times, do the Hokey-Pokey, and then check if the page reloads.",
-'The site you are trying to visit is temporarily unavailable due to a potential bomb threat. Please be patient.',
+"The site you are trying to visit is temporarily unavailable due to a potential bomb threat. Please be patient.",
 "The site you are trying to visit is currently under quarentine. Please allow 1-2 weeks of isolation before visitng again. We apologies for the inconvenience and thank you for your understanding.",
 "You have been visited by the ghost of Rick Ashley. You will die tonight unless you comment the link to Rick Ashley's 'Never Gonna Give You Up' on ten different YouTube videos.",
 "For your safety, the site ahead is under active surveillance by the Federal Government. Do not attempt to circumvent this with a vpn or other methods.",
-"You have been locked out of this site for security purposes. Please instert your thumb into your PC's USB port to unclock access."
+"You have been locked out of this site for security purposes. Please instert your thumb into your PC's USB port to unclock access.",
+"Your PC is at risk of overheating and may potentially catch fire. For your safety, please close anything open and shutdown your computer."
 ];
 
 Array.prototype.random = function () {
